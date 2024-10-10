@@ -24,6 +24,7 @@ public class Main {
                     System.out.println(lineNumber + ": " + line);
                     lineNumber++;
                 }
+                scanner.close();
                 break;
             } catch (Exception e) {
                 System.out.println("File Not found");
